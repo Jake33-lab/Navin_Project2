@@ -19,7 +19,8 @@ h1 {
   animation-name: rightToLeft;
   animation-duration: 5s;
   animation-direction: alternate;
-  /* animation-fill-mode: forwards; */
+  animation-fill-mode: forwards;
+  animation-delay: 0s;
   animation-iteration-count: no-infinite;
   animation-timing-function: ease-in-out;
 }
@@ -63,6 +64,26 @@ h1 {
   display: inline-block;
 
 }
+
+.sentence3 {
+  text-align: center;
+  font-size: 28px;
+}
+.sentence3 a{
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  
+} 
+.sentence3 a:hover {
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
+  color: #FF5733;
+  display: inline-block;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+
+}
 .sentence4 {
   text-align: center;
   font-size: 28px;
@@ -72,6 +93,7 @@ h1 {
   color: #007BFF;
   transition: color 0.3s;
   transition-duration: 3;
+  transition-timing-function: inherit;
   
 }
 .sentence4 a:hover {
@@ -88,8 +110,9 @@ h1 {
 }
 
 .page2 {
-  background-color: #FFC0CB; 
-  color: black;
+  /* background-color: #FFC0CB;  */
+  background-image: linear-gradient(brown,black,green);
+  color: white;
 }
 
 
