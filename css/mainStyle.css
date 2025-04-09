@@ -53,8 +53,27 @@ h1 {
 }
 
 .sentence a:hover {
-  transform: scale(50) translate(150px, 50px);
+  transform: scale(1.5);
+  transition: all 0.3s ease-in-out;
   color: #FF5733;
+  display: inline-block;
+
+}
+.sentence4 {
+  text-align: center;
+  font-size: 28px;
+}
+.sentence4 a{
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+  
+}
+.sentence4 a:hover {
+  transform: rotate(360deg) scale(1.5);
+  transition: all 0.3s ease-in-out;
+  color: #FF5733;
+  display: inline-block;
 
 }
 
@@ -65,7 +84,7 @@ h1 {
 
 .page2 {
   background-color: #FFC0CB; 
-  color: darkgoldenrod;
+  color: black;
 }
 
 
