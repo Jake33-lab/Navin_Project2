@@ -37,6 +37,10 @@ h1 {
 
 .lyrics a:hover {
   color: #FF5733;
+  display: inline-block;
+  transform: rotate(360deg);
+  transition: all 0.3s ease-in-out;
+  
 }
 
 .sentence {
@@ -67,6 +71,7 @@ h1 {
   text-decoration: none;
   color: #007BFF;
   transition: color 0.3s;
+  transition-duration: 3;
   
 }
 .sentence4 a:hover {
