@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Abril Fatface, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+h1 {
+  animation-name: rightToLeft;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  /* animation-fill-mode: forwards; */
+  animation-iteration-count: no-infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.lyrics {
+  text-align: center;
+  font-size: 28px;
+}
+
+.lyrics a {
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+}
+
+.lyrics a:hover {
+  color: #FF5733;
+}
+
+.sentence {
+  text-align: center;
+  font-size: 28px;
+}
+
+
+.sentence a{
+  text-decoration: none;
+  color: #007BFF;
+  transition: color 0.3s;
+  
+}
+
+.sentence a:hover {
+  transform: scale(50) translate(150px, 50px);
+  color: #FF5733;
+
+}
+
+.page1 {
+  background-color: #87CEEB; 
+  color: white;
+}
+
+.page2 {
+  background-color: #FFC0CB; 
+  color: darkgoldenrod;
+}
+
+
+.page3 {
+  background-color: #FFD700; 
+}     
+
+.page4 {
+  background-color: #90EE90; 
+}
+
+
+@keyframes rightToLeft {
+  from {
+    margin-right:100% ;
+  }
+  
+    to {
+      margin-right: 100;
+    }
+}
